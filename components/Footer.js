@@ -9,7 +9,11 @@ const Footer = () => {
       <div className={styles.inner}>
         <div className={styles.footer__content}>
           <p>&copy; {new Date().getFullYear().toString()} by Ibas</p>
-          <a href={`${site_url}/rss.xml`} target="_blank">
+          <a
+            href={`${site_url}/rss.xml`}
+            rel="noreferrer"
+            target="_blank"
+          >
             <MdRssFeed color="#ee802f" size="30px" />
           </a>
         </div>
