@@ -7,13 +7,13 @@ Read the step-by-step guide here: ...
 You can download or clone this project by running this command from your terminal:
 
 ```
-git clone https://github.com/Ibaslogic/nextjs-mdx-blog-starter
+git clone https://github.com/Ibaslogic/nextjs-mdx-blog-rss
 ```
 
 Then:
 
 ```
-cd nextjs-mdx-blog-starter
+cd nextjs-mdx-blog-rss
 ```
 
 ```

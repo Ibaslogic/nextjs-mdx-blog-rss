@@ -10,7 +10,7 @@ const Header = () => {
         <p>
           The source code for this blog is{' '}
           <a
-            href="https://github.com/Ibaslogic/nextjs-mdx-blog-starter"
+            href="https://github.com/Ibaslogic/nextjs-mdx-blog-rss"
             target="_blank"
             rel="noopener noreferrer"
             title="github"
