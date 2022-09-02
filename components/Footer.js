@@ -1,11 +1,6 @@
 import { MdRssFeed } from 'react-icons/md';
 
-import config from '../siteMetaData';
-// const site_url = process.env.VERCEL_URL;
-
 import styles from '../styles/Footer.module.css';
-
-const { siteUrl } = config;
 const Footer = () => {
   return (
     <footer>
@@ -13,7 +8,8 @@ const Footer = () => {
         <div className={styles.footer__content}>
           <p>&copy; {new Date().getFullYear().toString()} by Ibas</p>
           <a
-            href={`${siteUrl}/rss.xml`}
+            // production url after deploy to vercel
+            href="https://nextjs-mdx-blog-rss.vercel.app/rss.xml" // or use 'http://localhost:3000/rss.xml' in development
             rel="noreferrer"
             target="_blank"
           >

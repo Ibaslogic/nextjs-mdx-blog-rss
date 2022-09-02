@@ -7,7 +7,7 @@ import { getSortedPost } from './mdx';
 
 export default async function generateRssFeed() {
   const allPosts = await getSortedPost();
-  const site_url = process.env.VERCEL_URL;
+  const site_url = process.env.VERCEL_URL; // use 'localhost:3000' in dev mode or create .env.local file in project root and add this: VERCEL_URL=http://localhost:3000
 
   const feedOptions = {
     title: 'Blog posts | RSS Feed',
