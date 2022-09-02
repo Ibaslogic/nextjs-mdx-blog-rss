@@ -1,0 +1,16 @@
+.inner {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 900px;
+}
+
+.footer__content {
+  font-size: 14px;
+  color: #6a6767;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #e8e8e8;
+  align-items: center;
+  padding: 1.5rem 0;
+}

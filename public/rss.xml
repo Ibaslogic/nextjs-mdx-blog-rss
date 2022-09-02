@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Blog posts | RSS Feed</title>
+        <link>http://localhost:3000</link>
+        <description>Welcome to this blog posts!</description>
+        <lastBuildDate>Fri, 02 Sep 2022 05:54:45 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Blog posts | RSS Feed</title>
+            <url>http://localhost:3000/logo.png</url>
+            <link>http://localhost:3000</link>
+        </image>
+        <copyright>All rights reserved 2022, Ibas</copyright>
+        <item>
+            <title><![CDATA[The second post]]></title>
+            <link>http://localhost:3000/blog/second-post</link>
+            <guid>http://localhost:3000/blog/second-post</guid>
+            <pubDate>Mon, 29 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Consectetur adipisicing elit. Lorem ipsum dolor sit amet.]]></description>
+            <enclosure url="http://localhost:3000/images/second-post-featured.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The first post]]></title>
+            <link>http://localhost:3000/blog/first-post</link>
+            <guid>http://localhost:3000/blog/first-post</guid>
+            <pubDate>Sun, 28 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit.]]></description>
+            <enclosure url="http://localhost:3000/images/first-post-featured.png" length="0" type="image/png"/>
+        </item>
+    </channel>
+</rss>

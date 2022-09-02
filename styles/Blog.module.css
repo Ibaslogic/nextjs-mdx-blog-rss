@@ -1,0 +1,36 @@
+.post_item {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.post_item article {
+  border: 1px solid #eaeaea;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.post_item:last-child {
+  margin-bottom: 0;
+}
+
+.post_item h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  font-weight: 600px;
+}
+
+.item__link  {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post__meta {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #6a6767;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+
