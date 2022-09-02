@@ -32,6 +32,7 @@ export default async function generateRssFeed() {
       link: `${site_url}/blog/${post.slug}`,
       description: post.description,
       date: new Date(post.date),
+      image: `${site_url}${post.featured}`,
     });
   });
 
