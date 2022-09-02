@@ -1,8 +1,11 @@
 import { MdRssFeed } from 'react-icons/md';
 
-const site_url = process.env.VERCEL_URL;
+import config from '../siteMetaData';
+// const site_url = process.env.VERCEL_URL;
 
 import styles from '../styles/Footer.module.css';
+
+const { siteUrl } = config;
 const Footer = () => {
   return (
     <footer>
@@ -10,7 +13,7 @@ const Footer = () => {
         <div className={styles.footer__content}>
           <p>&copy; {new Date().getFullYear().toString()} by Ibas</p>
           <a
-            href={`${site_url}/rss.xml`}
+            href={`${siteUrl}/rss.xml`}
             rel="noreferrer"
             target="_blank"
           >
