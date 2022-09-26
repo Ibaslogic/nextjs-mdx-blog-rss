@@ -20,6 +20,9 @@ export default async function generateRssFeed() {
     generator: 'Feed for Node.js',
     feedLinks: {
       rss2: `${site_url}/rss.xml`,
+      // other feed formats
+      json: `${site_url}/rss.json`,
+      atom: `${site_url}/atom.xml`,
     },
   };
 
@@ -36,6 +39,10 @@ export default async function generateRssFeed() {
   });
 
   fs.writeFileSync('./public/rss.xml', feed.rss2());
+
+  // write other feed formats to public folder
+  fs.writeFileSync('./public/rss.json', feed.json1());
+  fs.writeFileSync('./public/atom.xml', feed.atom1());
 }
 
 /* ==================== 

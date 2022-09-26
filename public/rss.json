@@ -1,0 +1,24 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Blog posts | RSS Feed",
+    "home_page_url": "http://localhost:3000",
+    "feed_url": "http://localhost:3000/rss.json",
+    "description": "Welcome to this blog posts!",
+    "icon": "http://localhost:3000/logo.png",
+    "items": [
+        {
+            "id": "http://localhost:3000/blog/second-post",
+            "url": "http://localhost:3000/blog/second-post",
+            "title": "The second post",
+            "summary": "Consectetur adipisicing elit. Lorem ipsum dolor sit amet.",
+            "date_modified": "2022-08-29T00:00:00.000Z"
+        },
+        {
+            "id": "http://localhost:3000/blog/first-post",
+            "url": "http://localhost:3000/blog/first-post",
+            "title": "The first post",
+            "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "date_modified": "2022-08-28T00:00:00.000Z"
+        }
+    ]
+}

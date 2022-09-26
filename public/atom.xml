@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://localhost:3000</id>
+    <title>Blog posts | RSS Feed</title>
+    <updated>2022-09-26T20:26:42.600Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="http://localhost:3000"/>
+    <link rel="self" href="http://localhost:3000/atom.xml"/>
+    <subtitle>Welcome to this blog posts!</subtitle>
+    <logo>http://localhost:3000/logo.png</logo>
+    <icon>http://localhost:3000/favicon.png</icon>
+    <rights>All rights reserved 2022, Ibas</rights>
+    <entry>
+        <title type="html"><![CDATA[The second post]]></title>
+        <id>http://localhost:3000/blog/second-post</id>
+        <link href="http://localhost:3000/blog/second-post"/>
+        <updated>2022-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Consectetur adipisicing elit. Lorem ipsum dolor sit amet.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The first post]]></title>
+        <id>http://localhost:3000/blog/first-post</id>
+        <link href="http://localhost:3000/blog/first-post"/>
+        <updated>2022-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit.]]></summary>
+    </entry>
+</feed>
