@@ -1,6 +1,6 @@
 # Adding an RSS feed to your Next.js app
 
-Read the step-by-step guide here: ...
+Read the step-by-step guide here: [RSS feed to your Next.js app](https://blog.logrocket.com/adding-rss-feed-next-js-app/)
 
 ## Clone project
 
